@@ -1,0 +1,87 @@
+#main{
+    padding: 20px;
+}
+
+#top{
+    border: 1px solid blue;
+    width:100%;
+    height:150px;
+    text-align: center;
+}
+
+#lists{
+
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    min-height: 300px;
+    height: auto;
+    padding-top: 50px;
+
+}
+
+.lists {
+    border: 2px solid;
+    width:30%;
+    height:auto;
+    padding:10px;
+
+}
+
+.lists h4{
+    text-decoration:underline;
+    text-align: center;
+}
+
+#list1{
+    border-color: red;
+}
+
+#list2{
+    border-color: green;
+}
+
+#list3{
+    border-color: yellow;
+}
+
+input[type='radio']{
+margin-top: 20px;
+}
+
+label[for="radio1"]{
+    color: red;
+}
+label[for="radio2"]{
+    color: green;
+}
+
+label[for="radio3"]{
+    color: yellow;
+}
+
+button{
+   margin-right: 5px;
+}
+
+.done{
+    text-decoration:line-through;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 10px;
+
+
+}
+
+li>label{
+    margin-left:5px;
+    margin-right: 5px;
+    word-wrap: break-word;
+}
+
+.refresh{
+    position: relative;
+    left: 25px;
+}

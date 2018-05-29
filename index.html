@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+
+    <link type="text/css" href="style.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <div id="main">
+        <div id="top">
+            <h2>What do you want TO DO?</h2>
+            <input id='item' type="text"/>
+            <button id="addBtn" type="button">ADD</button><br/>
+            <input type="radio" name="type" value="Important & Urgent" id="radio1"/>
+            <label for="radio1">Important & Urgent</label>
+            <input type="radio" name="type" value="Important & NOT urgent" id="radio2"/>
+            <label for="radio2">Important & NOT urgent</label>
+            <input type="radio" name="type" value="NOT important & Urgent" id="radio3"/>
+            <label for="radio3">NOT important & Urgent</label>
+        </div>
+        <div id="lists">
+            <div id="list1" class="lists">
+                <h4>Important & Urgent <button type="button" id="ref1" class="refresh">Refresh</button></h4>
+
+                <ul id="ul1">
+
+                </ul>
+             </div>
+            <div id="list2" class="lists">
+                <h4>Important & NOT urgent <button type="button"  id="ref2" class="refresh">Refresh</button></h4>
+                <ul id="ul2">
+
+                </ul>
+            </div>
+            <div id="list3" class="lists">
+                <h4>NOT important & Urgent <button type="button" id="ref3" class="refresh">Refresh</button></h4>
+                <ul id="ul3">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
